@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -90,9 +94,9 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
+/* CSS da página de CONTATO */
+.main{
+
 }
 
 form {
@@ -133,7 +137,7 @@ form label, form legend {
 	background: darkorange;
 	transform: scale(1.1);
 }
-/* Página de contato */
+
 .contato {
 	width: 940px;
 	margin: 40px auto;
@@ -211,6 +215,14 @@ td, th {
 	/* 'em' é a medida de proporcionalidade para pixels */
 	font-size: 2em;
 	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -225,6 +237,60 @@ td, th {
 	font-style: italic;
 }
 
-.imagembeneficios {
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before{
+	content: "✤ ";
+}
+
+.imagem-beneficios {
 	width: 60%;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
