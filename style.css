@@ -95,9 +95,6 @@ footer {
 }
 
 /* CSS da página de CONTATO */
-.main{
-
-}
 
 form {
 	margin: 40px 0;
@@ -120,7 +117,8 @@ form label, form legend {
 	margin: 20px 0;
 }
 
-.enviar {
+.botao {
+	margin: 20px 0 0;
 	width: 40%;
 	padding: 15px 0;
 	background: orange;
@@ -133,7 +131,7 @@ form label, form legend {
 	cursor: pointer;
 }
 
-.enviar:hover {
+.botao:hover {
 	background: darkorange;
 	transform: scale(1.1);
 }
@@ -163,24 +161,6 @@ form label, form legend {
 
 .newsletter {
 	margin: 0 0 20px;
-}
-
-.botao {
-	margin: 20px 0 0;
-	width: 30%;
-	padding: 10px 20px;
-	font-size: 24px;
-	display: inline-block;
-	background: orange;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	transition: 1s;
-}
-
-.botao:hover {
-	cursor: pointer;
-	transform: scale(1.2);	
 }
 
 .funcionamento {
